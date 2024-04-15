@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Goals</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="workoption.css" />
+    <link rel="stylesheet" href="../intro/intro.css" />
+    <style>
+      /* Smooth checkbox animation */
+      input[type="checkbox"] {
+        transition: all 0.2s ease-in-out;
+      }
+    
+
+      /* Skip button styles */
+      .skip-button {
+        width: 343px;
+        height: 50px;
+        top: 665px;
+        left: 16px;
+        gap: 0px;
+        border-radius: 12px 0px 0px 0px;
+        opacity: 0px;
+        background: linear-gradient(270deg, #7b91ff 0%, #95beff 100%);
+        color: white;
+      }
+
+      .skip-button:hover {
+        background-color: #7b91ff;
+        transform: scale(1.05);
+      }
+      .goals-head {
+        width: 219px;
+        height: 24px;
+        top: 68px;
+        left: 78px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24.38px;
+        text-align: left;
+        color: var(--black, #2c2b2b);
+        display: flex;
+        margin: 20px 0px 20px 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="max-w-md mx-auto mt-10">
+      <div class="bg-white rounded-lg">
+        <div class="p-4">
+          <!-- ------------- -->
+          <div class="top-element">
+            <div class="inner-left ml-9">9:41</div>
+
+            <div>
+              <div class="inner-right mr-12">
+                <div class="imgs">
+                  <img
+                    class="img4"
+                    src="../images/Cellular-Connection-path.jpg"
+                    alt=""
+                  />
+                  <img
+                    class="img3"
+                    src="../images/Cellular-Connection-path (1).jpg"
+                    alt=""
+                  />
+                  <img
+                    class="img2"
+                    src="../images/Cellular-Connection-path (2).jpg"
+                    alt=""
+                  />
+                  <img
+                    class="img1"
+                    src="../images/Cellular-Connection-path (3).jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="tower ">
+                  <img
+                    class="tower-img1"
+                    src="../images/Wifi-path.jpg"
+                    alt=""
+                  />
+                  <img
+                    class="tower-img2"
+                    src="../images/Wifi-path (1).jpg"
+                    alt=""
+                  />
+                  <img
+                    class="tower-img3"
+                    src="../images/Wifi-path (2).jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="battery">
+                  <img src="../images/Battery.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ---------->
+
+          
+          <h1 class="goals-head">What are your goals?</h1>
+
+              <div class="option-bar" style="background-color: #f1f1f1; padding: 1rem; border-radius: 0.5rem; margin-bottom: 10px; width: 343px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+                <label for="weight-loss" style="color: #4a5568; margin-bottom: 10px;">Weight Loss</label>
+                <input id="weight-loss" type="checkbox" style="height: 1.25rem; width: 1.25rem; margin-left: auto;">
+            </div><br>
+        <div style="background-color: #f1f1f1; padding: 1rem; border-radius: 0.5rem; margin-bottom: 10px; width: 343px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+            <label for="muscle-gain" style="color: #4a5568; margin-bottom: 10px;">Muscle Gain</label>
+            <input id="muscle-gain" type="checkbox" style="height: 1.25rem; width: 1.25rem; margin-left: auto;">
+        </div><br>
+        <div style="background-color: #f1f1f1; padding: 1rem; border-radius: 0.5rem; margin-bottom: 10px; width: 343px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+            <label for="flexibility" style="color: #4a5568; margin-bottom: 10px;">Flexibility and Mobility</label>
+            <input id="flexibility" type="checkbox" style="height: 1.25rem; width: 1.25rem; margin-left: auto;">
+        </div><br>
+        <div style="background-color: #f1f1f1; padding: 1rem; border-radius: 0.5rem; margin-bottom: 10px; width: 343px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+            <label for="general-fitness" style="color: #4a5568; margin-bottom: 10px;">General Fitness</label>
+            <input id="general-fitness" type="checkbox" style="height: 1.25rem; width: 1.25rem; margin-left: auto;">
+        </div><br>
+        <div style="background-color: #f1f1f1; padding: 1rem; border-radius: 0.5rem; margin-bottom: 10px; width: 343px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+            <label for="event-training" style="color: #4a5568; margin-bottom: 10px;">Event-specific training</label>
+            <input id="event-training" type="checkbox" style="height: 1.25rem; width: 1.25rem; margin-left: auto;">
+        </div><br>
+        <div style="background-color: #f1f1f1; padding: 1rem; border-radius: 0.5rem; margin-bottom: 10px; width: 343px; margin: 0 auto ; display: flex; justify-content: space-between; align-items: center;">
+            <label for="mindfulness" style="color: #4a5568; margin-bottom: 10px;">Mindfulness and Mental Health</label>
+            <input id="mindfulness" type="checkbox" style="height: 1.25rem; width: 1.25rem; margin-left: auto;">
+        </div>
+        
+          </div>
+        
+        </div>
+      </div>
+    </div>
+    <div class="p-4 mt-10 flex justify-center">
+      <button
+        id="skip-button"
+        class="skip-button "
+        style="display: inline-block; border-radius: 10px  ;   color: white;"        
+      >
+        confirm
+      </button>
+    </div>
+    <script src="workoption.js"></script>
+  </body>
+</html>
